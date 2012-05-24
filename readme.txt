@@ -12,6 +12,7 @@ This plugin adds jquery validation in contact form 7 forms.
 This plugin adds jquery validation to your contact form 7. You will be able to validate extra validation rules like: url, date, credit card, phone number in the contact form 7 fields.
 
 Benefits you get from this plugins.
+
 * Adds Jquery Validation to Contact Form Fields.
 * More faster validation than of contact form core validation.
 * Allows field to be validated for url, date, credit card, number and more.
