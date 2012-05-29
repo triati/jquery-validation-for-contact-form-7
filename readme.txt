@@ -23,6 +23,8 @@ Benefits you get from this plugins.
 
 Don't forget to check the instructions in the setting page of the plugin.
 
+Thanks to <a href="http://wework4web.com" target="_blank">wework4web</a> for supporting plugin developement.
+
 Please report any bugs @ http://dineshkarki.com.np/plugins/jquery-validation-for-contact-form-7/report-bugs.
 
 Click <a href="http://dineshkarki.com.np/donate">here</a> to support and make this plugin alive.
