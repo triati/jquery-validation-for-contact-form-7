@@ -4,11 +4,13 @@ Donate link: http://dineshkarki.com.np/donate
 Tags: jquery, validation, contact form 7, special validation
 Requires at least: 3.0.
 Tested up to: 3.3.2
-Stable tag: 0.1
+Stable tag: 0.2
 
 This plugin adds jquery validation in contact form 7 forms.
 
 == Description ==
+Update in 0.2 : Error Fixes
+
 This plugin adds jquery validation to your contact form 7. You will be able to validate extra validation rules like: url, date, credit card, phone number in the contact form 7 fields.
 
 Benefits you get from this plugins.
@@ -48,6 +50,9 @@ Yes, this plugin has been take care to handle multiple forms in a single page.
 1. Setting and Instruction For Jquery Validation For Contact Form 7.
 
 == Changelog ==
+
+= 0.2 =
+* Error Fixes
 
 = 0.1 =
 * First Release

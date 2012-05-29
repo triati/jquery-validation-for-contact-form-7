@@ -4,7 +4,7 @@ Plugin Name: Jquery Validation For Contact Form 7
 Plugin URI: http://dineshkarki.com.np/plugins/jquery-validation-for-contact-form-7
 Description: This plugin integrates jquery validation in contact form 7
 Author: Dinesh Karki
-Version: 0.1
+Version: 0.2
 Author URI: http://www.dineshkarki.com.np
 */
 
@@ -57,17 +57,16 @@ if ($jvcf7_highlight_error_field == 'yes'){
 	$styleSheet.='.wpcf7-form input.error, .wpcf7-form select.error, .wpcf7-form textarea.error{border-bottom:2px solid #900;outline: none;}';
 }
 
-if ($jvcf7_hide_contact_form_7_validation_error == 'yes'){
-	$styleSheet.='div.wpcf7-validation-errors{ display:none !important;}';
-}
-
-
 add_action('wp_enqueue_scripts', 'jvcf7_validation_js');
 function jvcf7_validation_js(){
   global $styleSheet;
+  echo '<script> jvcf7_loading_url= "'.plugins_url('contact-form-7/images/ajax-loader.gif').'"</script>';
+  wp_dequeue_script( 'contact-form-7' );
+  wp_enqueue_script('jquery-form');
   wp_enqueue_script('jvcf7_jquery_validate', plugins_url('jquery-validation-for-contact-form-7/js/jquery.validate.min.js'), array('jquery'), '', true);
   wp_enqueue_script('jvcf7_validation_custom', plugins_url('jquery-validation-for-contact-form-7/js/jquery.jvcf7_validation.js'), '', '', true);
   echo '<style>'.$styleSheet.'</style>';
+
 }
 include('plugin_interface.php');
 ?>

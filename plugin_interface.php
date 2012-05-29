@@ -10,13 +10,11 @@ function jvcf7_create_menu() {
 function register_jvcf7settings() {
 	register_setting('jvcf7-settings-group', 'jvcf7_show_label_error');
 	register_setting('jvcf7-settings-group', 'jvcf7_highlight_error_field');
-	register_setting('jvcf7-settings-group', 'jvcf7_hide_contact_form_7_validation_error');
 }
 
 function jvcf7_settings_page() {	
 	$jvcf7_show_label_error 						= get_option('jvcf7_show_label_error');
 	$jvcf7_highlight_error_field 					= get_option('jvcf7_highlight_error_field');
-	$jvcf7_hide_contact_form_7_validation_error 	= get_option('jvcf7_hide_contact_form_7_validation_error');	
 ?>
 <div class="wrap">
 <h2>Jquery Validation For Contact Form</h2>
@@ -56,18 +54,6 @@ function jvcf7_settings_page() {
                 <img src="<?php echo plugins_url('jquery-validation-for-contact-form-7/img/highlight_invalid_fields.png'); ?>" />
             </td>
             
-        </tr>
-        
-        <tr valign="top">
-            <th scope="row">Disbale Contact From 7 Validation Error Message ?</th>
-            <td>
-                <select name="jvcf7_hide_contact_form_7_validation_error"  style="width:100px;" />
-                    <option value="yes" <?php echo $jvcf7_hide_contact_form_7_validation_error == 'yes'?'selected="selected"':''; ?>>Yes</option>
-                    <option value="no" <?php echo $jvcf7_hide_contact_form_7_validation_error == 'no'?'selected="selected"':''; ?>>No</option>
-                </select>
-                
-            </td>
-            <td><em>It only disables the validation error message of contact form 7. Other message are visisble.</em></td>
         </tr>
     </table>
     
