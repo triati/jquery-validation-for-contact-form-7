@@ -15,13 +15,25 @@ function register_jvcf7settings() {
 function jvcf7_settings_page() {	
 	$jvcf7_show_label_error 						= get_option('jvcf7_show_label_error');
 	$jvcf7_highlight_error_field 					= get_option('jvcf7_highlight_error_field');
+
 ?>
+
+<div class="support_education wrap" style="width:250px; line-height:2.0; position:fixed; right:0;">
+<h3>Educate a Child</h3>
+We are sponsoring education for poor children. Donate and help us raise fund for them. For more details click <a href="http://dineshkarki.com.np/educate-child" target="_blank">here</a>
+<br /><br />
+<div align="center">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="GNJJ22PDAAX48">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+</div>
+
 <div class="wrap">
 <h2>Jquery Validation For Contact Form</h2>
-<br/>
-<div style="-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; border:1px solid #e9e9e9; padding:10px;-webkit-box-shadow: 0px 0px 1px 2px #969696;-moz-box-shadow: 0px 0px 1px 2px #969696;box-shadow: 0px 0px 1px 2px #969696; text-align:center; font-size:14px;"> 
-<em><b>Click <a href="http://dineshkarki.com.np/donate" target="_blank">here</a> to show love to this plugin.</b></em>
-</div>
 
 
     <form method="post" action="options.php">
