@@ -8,7 +8,7 @@ Stable tag: 0.2
 This plugin adds jquery validation in contact form 7 forms.
 
 == Description ==
-This plugin is no longer updated from here. Visit <a href="http://dineshkarki.com.np/jquery-validation-for-contact-form-7">here</a> for latest version.
+This plugin is no longer updated from here. Visit <a href="http://dineshkarki.com.np/jquery-validation-for-contact-form-7">http://dineshkarki.com.np/jquery-validation-for-contact-form-7</a> for latest version.
 
 You can also visit our <a href="http://dineshkarki.com.np/forums">Support Forum</a> for any issues.
 
@@ -25,12 +25,6 @@ Benefits you get from this plugins.
 * Interactive validation that your users love.
 
 Don't forget to check the instructions in the setting page of the plugin.
-
-Thanks to <a href="http://wework4web.com" target="_blank">wework4web</a> for supporting plugin developement.
-
-Please report any bugs @ http://dineshkarki.com.np/plugins/jquery-validation-for-contact-form-7/report-bugs.
-
-Click <a href="http://dineshkarki.com.np/donate">here</a> to support and make this plugin alive.
 
 == Installation ==
 
