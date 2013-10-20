@@ -1,9 +1,9 @@
 === Jquery Validation For Contact Form 7 ===
 Contributors: dnesscarkey
-Tags: contact form 7 js validation, special validation, jquery validation, contact form 7 jquery validation
+Tags: contact form 7 js validation, special validation, jquery validation, contact form 7 jquery validation, form validation, contact form 7
 Requires at least: 3.0.
-Tested up to: 3.5.1
-Stable tag: 0.3
+Tested up to: 3.6.1
+Stable tag: 1.1
 
 This plugin adds jquery validation in contact form 7 forms.
 
@@ -19,6 +19,7 @@ Benefits you get from this plugins.
 * Error message for individual fields.
 * Easy to to add validation rules. Just add class in contact form 7 fields.
 * Interactive validation that your users love.
+* Works with multiple forms now.
 
 For Support Please Visit <a href="http://dineshkarki.com.np/forums/forum/jquery-validation-for-contact-form">http://dineshkarki.com.np/forums/forum/jquery-validation-for-contact-form</a>
 
@@ -43,6 +44,9 @@ Yes, this plugin has been take care to handle multiple forms in a single page.
 1. Setting and Instruction For Jquery Validation For Contact Form 7.
 
 == Changelog ==
+
+= 1.1 =
+Multiple form issues fixed.
 
 = 0.3 =
 IE issues fixed.

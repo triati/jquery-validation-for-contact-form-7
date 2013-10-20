@@ -12,7 +12,7 @@
 					jqForm.wpcf7ClearResponseOutput();
 					// CUSTOM CODE
 					$(jqForm).validate();
-						check_status = $('div.wpcf7 > form').valid();
+						check_status = $(jqForm).valid();
 						if (check_status == true){
 							jqForm.find('img.ajax-loader').css({ visibility: 'visible' });
 							return true;
@@ -249,6 +249,14 @@
 })(jQuery);
 
 jQuery(document).ready(function(){
+	jQuery.validator.addMethod("myCustomCurrency", function(value, element) {
+		 var pattern = new RegExp(/^\$?([1-9]{1}[0-9]{0,2}(\,[0-9]{3})*(\.[0-9]{0,2})?|[1-9]{1}[0-9]{0,}(\.[0-9]{0,2})?|0(\.[0-9]{0,2})?|(\.[0-9]{1,2})?)$/);
+		if (pattern.test(value)){
+			return true;
+		}return false;
+		
+	},"Accepted Format : $123,456");
+	
 	jQuery('.wpcf7-validates-as-required').addClass('required');
 	jQuery('.wpcf7-email').addClass('email');
 	jQuery('form.wpcf7-form"').each(function(){
