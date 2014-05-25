@@ -4,7 +4,7 @@ Plugin Name: Jquery Validation For Contact Form 7
 Plugin URI: http://dineshkarki.com.np/jquery-validation-for-contact-form-7
 Description: This plugin integrates jquery validation in contact form 7
 Author: Dinesh Karki
-Version: 1.1
+Version: 2.0
 Author URI: http://www.dineshkarki.com.np
 */
 
