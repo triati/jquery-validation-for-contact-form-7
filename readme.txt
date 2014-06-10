@@ -3,7 +3,7 @@ Contributors: dnesscarkey
 Tags: contact form 7 js validation, special validation, jquery validation, contact form 7 jquery validation, form validation, contact form 7
 Requires at least: 3.0.
 Tested up to: 3.9.1
-Stable tag: 2.0
+Stable tag: 2.0.1
 
 This plugin adds jquery validation in contact form 7 forms.
 
