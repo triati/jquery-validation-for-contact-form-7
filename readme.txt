@@ -22,6 +22,7 @@ Benefits you get from this plugins.
 * Works with multiple forms now.
 
 Validation Methods available.
+
 * Required
 * Email
 * Url
@@ -34,6 +35,7 @@ Validation Methods available.
 <a href="http://dnesscarkey.com/jquery-validation/lite-version-demo/" target="_blank">Lite Version Demo</a>
 
 Additional Validation Methods available in PRO version.
+
 * Minimum Number - Makes the element require a given minimum.
 * Maximum Number - Makes the element require a given maximum.
 * Minimum Length - Makes the element require a given minimum length.
@@ -45,6 +47,7 @@ Additional Validation Methods available in PRO version.
 * Require Group - Ensures a given number of fields in a group are complete.
 
 Additional Features in Pro version.
+
 * 4 different <a href="http://dnesscarkey.com/jquery-validation/validation-error-theme/" target="_blank">validation error theme</a> to choose from. 
 * Change <a href="http://dnesscarkey.com/jquery-validation/change-error-message/" target="_blank">validation error message</a>.
 
@@ -81,18 +84,19 @@ Yes, this plugin has been take care to handle multiple forms in a single page.
 == Changelog ==
 
 = 3.0.1 =
-Tested with WP 4.1.1 and Contact Form 7 Ver 4.1.1.
-Added more validation rules.
-Fixed PhoneUS validation.
+
+* Tested with WP 4.1.1 and Contact Form 7 Ver 4.1.1.
+* Added more validation rules.
+* Fixed PhoneUS validation.
 
 = 2.0 =
-Tested with 3.9
+* Tested with 3.9
 
 = 1.1 =
-Multiple form issues fixed.
+* Multiple form issues fixed.
 
 = 0.3 =
-IE issues fixed.
+* IE issues fixed.
 
 = 0.2 =
 * Error Fixes
