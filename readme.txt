@@ -1,11 +1,11 @@
 === Jquery Validation For Contact Form 7 ===
 Contributors: dnesscarkey
-Tags: contact form 7 js validation, special validation, jquery validation, contact form 7 jquery validation, form validation, contact form 7
-Requires at least: 3.0.
-Tested up to: 3.9.1
-Stable tag: 2.0.1
+Tags: contact form 7 js validation, jquery validation, contact form 7 jquery validation, form validation, contact form 7 us phone number validation, file extension validation, ur validation, credit card validaton, minlength validation, range validation
+Requires at least: 3.0
+Tested up to: 4.1.1
+Stable tag: 3.0.1
 
-This plugin adds jquery validation in contact form 7 forms.
+New standard of validation for Contact Form 7 plugin.
 
 == Description ==
 This plugin adds jquery validation to your contact form 7. You will be able to validate extra validation rules like: url, date, credit card, phone number in the contact form 7 fields.
@@ -21,7 +21,36 @@ Benefits you get from this plugins.
 * Interactive validation that your users love.
 * Works with multiple forms now.
 
-For Support Please Visit <a href="http://dineshkarki.com.np/forums/forum/jquery-validation-for-contact-form">http://dineshkarki.com.np/forums/forum/jquery-validation-for-contact-form</a>
+Validation Methods available.
+* Required
+* Email
+* Url
+* Date
+* Number
+* Digit only
+* Credit Card
+* US Phone number
+
+<a href="http://dnesscarkey.com/jquery-validation/lite-version-demo/" target="_blank">Lite Version Demo</a>
+
+Additional Validation Methods available in PRO version.
+* Minimum Number - Makes the element require a given minimum.
+* Maximum Number - Makes the element require a given maximum.
+* Minimum Length - Makes the element require a given minimum length.
+* Maximum Length - Makes the element require a given maximum length.
+* Range Length - Makes the element require a given value range.
+* Range - Makes the element require a given value range.
+* Equal To - Requires the element to be the same as another one
+* Extension - Makes the element require a certain file extension
+* Require Group - Ensures a given number of fields in a group are complete.
+
+Additional Features in Pro version.
+* 4 different <a href="http://dnesscarkey.com/jquery-validation/validation-error-theme/" target="_blank">validation error theme</a> to choose from. 
+* Change <a href="http://dnesscarkey.com/jquery-validation/change-error-message/" target="_blank">validation error message</a>.
+
+<a href="http://dnesscarkey.com/jquery-validation/pro-version-demo/" target="_blank">Pro Version Demo</a>
+
+For Support Please Visit <a href="http://dineshkarki.com.np/forums/forum/jquery-validation-for-contact-form">http://dineshkarki.com.np/forums/forum/jquery-validation-for-contact-form</a>. We don't respond to tickets created here.
 
 Don't forget to check the instructions in the setting page of the plugin.
 
@@ -42,8 +71,19 @@ Yes, this plugin has been take care to handle multiple forms in a single page.
 
 1. Contact Form With extra jquery validation in front end.
 1. Setting and Instruction For Jquery Validation For Contact Form 7.
+1. Change Error Message
+1. Validation Error Theme 1 (Lite Version)
+1. Validation Error Theme 2 (Only Available in Pro Version)
+1. Validation Error Theme 3 (Only Available in Pro Version)
+1. Validation Error Theme 4 (Only Available in Pro Version)
+1. Validation Error None (Lite Version)
 
 == Changelog ==
+
+= 3.0.1 =
+Tested with WP 4.1.1 and Contact Form 7 Ver 4.1.1.
+Added more validation rules.
+Fixed PhoneUS validation.
 
 = 2.0 =
 Tested with 3.9
